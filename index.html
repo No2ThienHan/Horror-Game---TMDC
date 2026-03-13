@@ -7,6 +7,7 @@
 <style>
 body{
     font-family: Arial, sans-serif;
+    font-size: 24px;
     max-width: 800px;
     margin: 40px auto;
     line-height: 1.7;
@@ -177,5 +178,19 @@ Trong hành lang chật hẹp này, một cô gái như tôi đối mặt với 
 
 <p><i>— Hết chap 1 ròi đấy nhìn giề-.-?—</i></p>
 
+<script>
+document.addEventListener("copy", function(e) {
+
+    var message = "Bạn đang sao chép nội dung từ website của Vương Thiên Hàn.\nVui lòng ghi nguồn khi đăng lại.\nhttps://no2thienhan.github.io/Horror-Game---TMDC/";
+
+    e.clipboardData.setData("text/plain", message);
+    e.preventDefault();
+
+});
+</script>
+
+<a href="chap2.html">Chap tiếp →</a>
+    
 </body>
+
 </html>
